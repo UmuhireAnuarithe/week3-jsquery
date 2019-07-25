@@ -1,7 +1,7 @@
-body {
-    background-image: url("images/header.jpg");
+.head {
+    background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% 900px;
     text-align: center;
     padding-top: 50px;
 }

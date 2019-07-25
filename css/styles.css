@@ -33,3 +33,15 @@
 h2{
     text-align: center;
 }
+.photo{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+.photo img{
+    width: 250px;
+    height: 200px;
+    justify-content: space-around;
+    margin-left: 5px;
+}

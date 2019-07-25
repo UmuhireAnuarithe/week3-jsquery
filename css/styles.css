@@ -2,8 +2,25 @@
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 230px;
+    padding-top: 190px;
     height: 700px;
     background-size: 100% ;
     color: white;
+}
+
+.us{
+    text-align: center;
+    text-decoration-style: none;
+    margin: 00px;
+}
+.service{
+    background-image: url("../images/services.jpg");
+    /* background-image: url("../images/header.jpg"); */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 70px;
+    height: 800px;
+    background-size: 100% ;
+    color: white;
+    margin-top: 10px;
 }

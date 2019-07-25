@@ -45,3 +45,7 @@ h2{
     justify-content: space-around;
     margin-left: 5px;
 }
+.contact{
+    background-image: url("../images/c_image.jpg");
+    background-size: 100% 50% cover;
+}

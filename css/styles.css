@@ -19,12 +19,15 @@
     /* background-image: url("../images/header.jpg"); */
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 70px;
-    background-size: 100% ;
+    padding-top: 60px;
     height: 100%;
+    background-size: 100% ;
     color: white;
-    margin-top: 10px;
+    font-family: 'gill sans' cursive ;
+    margin-top: 70px;
+    margin-bottom:00000px 
 }
+
 .do{
     display: flex;
     flex-direction: row;
@@ -42,18 +45,29 @@ h2{
 .photo img{
     width: 250px;
     height: 200px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
    
 }
 .contact{
     background-image: url("../images/c_image.jpg");
-    background-size: 100% ;
-    height: 700px;
     background-repeat: no-repeat;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
+    text-align: center;
+    padding-top: 60px;
+    height: 700px;
+    background-size: 100% ;
+    color: white;
+    font-family: 'gill sans' cursive ;
+    margin-top: 50px;
 }
+
 #user,#mail,#info{
     background-color:
 }
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float:center;
+    /* justify-content: space-around;
+    a
+} */

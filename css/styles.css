@@ -44,7 +44,7 @@ h2{
     flex-direction: row;
     justify-content: space-around;
 
-}
+/* }
 .row1{
     
     display: flex;
@@ -57,7 +57,7 @@ h2{
     height: 200px;
     background-color: white;
     /* justify-content: space-around; */
-   
+    */
 }
 .photo{
     display: flex;
@@ -107,4 +107,36 @@ input{
 footer{
     text-align: center;
 }
+/* .pp1{
+    
+    top: 150px;
+    left: 100px;
+    transform: translate(-50% -50%);
 
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50%;
+    position: absolute;
+} */
+/* #w1>h2{
+    position: absolute;
+    transform: translate(-50%);
+   
+    background-color: black; */
+
+}
+#w1{
+    top:50%;
+    color:white;
+    text-align: center;
+    position: absolute;
+    left:30%;
+
+    background-color: black;
+}
+#p1{
+     position: relative;
+     overflow: hidden;
+
+}

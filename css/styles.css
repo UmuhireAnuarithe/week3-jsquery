@@ -70,7 +70,7 @@ input{
 .icon{
     display: flex;
     flex-direction: row;
-    align-content: center;
+    text-align: center;
 
 }
 .do p{

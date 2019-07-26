@@ -35,19 +35,33 @@
 }
 h2{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, cursive;
 }
-.photo{
+.row2{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.row1{
+    
     display: flex;
     /* justify-content: space-around; */
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.photo img{
+.row1 img ,.row2 img{
     width: 250px;
     height: 200px;
+    background-color: white;
     /* justify-content: space-around; */
    
+}
+.photo{
+    display: flex;
+    flex-direction: column;
 }
 .contact{
     background-image: url("../images/c_image.jpg");
@@ -65,19 +79,32 @@ input{
     justify-items: space-aroun;
 }
 #user,#mail,#info{
-    background-color:
+    background-color:transparent;
 }
 .icon{
-    display: flex;
-    flex-direction: row;
     text-align: center;
-
+    flex-direction: row;
 }
-.do p{
+.message{
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    margin-left: 200px;   
+}
+#button{
+    background-color: aqua;
+    background-size: 200px;
+}
+.view{
     display: none;
+    width:300px;
 }
 .user{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+footer{
+    text-align: center;
+}
+

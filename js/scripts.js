@@ -1,7 +1,16 @@
 $(document).ready(function(){
-    $(".di").click(function(){
-        $("p").show();
-    // $(".design-showing").toggle();
-    // $(".desig n-hidden").toggle();
+    $("#create,#path").click(function(){
+     $(".hide").toggle();
+     $("#path").toggle();
+    });
+
+    $("#dev,#see").click(function(){
+     $(".hidden").toggle();
+     $("#see").toggle();
+    });
+    $("#produce,#get").click(function(){
+    $(".hidding").toggle();
+    $("#get").toggle();
     });
 });
+$

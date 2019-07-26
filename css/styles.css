@@ -82,6 +82,7 @@ input{
     background-color:transparent;
 }
 .icon{
+    margin-top: 30px;
     text-align: center;
     flex-direction: row;
 }

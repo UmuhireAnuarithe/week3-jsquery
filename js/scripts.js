@@ -1,10 +1,12 @@
-var name = document.getElementById("mail");
-var email = document.getElementById("name");
+function  comment(){
+var name = document.getElementById("name");
+var email = document.getElementById("mail");
 var message = document.getElementById("info");
  console.log(name);
- document.getElementById("button")
+ document.getElementById("button").checked;
+//  alert("Thank you " + " ! " + " name:" + " your message recieved")
 
-
+}
 
 
 

@@ -167,6 +167,7 @@ footer{
     color:white;
     transform:translate(-50%,50%);
     bottom: 50%;
+    background-size: 200px;
     
 
 }
@@ -226,10 +227,10 @@ footer{
     padding: 0;
     margin: 0;
     width: 200px;
-    left: 50%;
+    left: 30%;
     color:white;
     transform:translate(-50%,50%);
-    bottom: 50%;
+    
     background-size: 200px;
 }
 .work1>h2{

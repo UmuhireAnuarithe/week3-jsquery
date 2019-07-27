@@ -56,7 +56,6 @@ h2{
     width: 250px;
     height: 200px;
     background-color: white;
-    /* justify-content: space-around; */
     */
 }
 .photo{
@@ -108,42 +107,130 @@ input{
 footer{
     text-align: center;
 }
-/* .row{
-    position: relative;
-    width: 50%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
+
+.p1{
+    top:30%;
     position: absolute;
-    top: 50%;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
     bottom: 50%;
-    left: 5%0;
-    right: 0;
-    height: 50%;
-    width: 100%;
-    opacity: 0.6;
-    transition: .5s ease;
-    background-color:blue;
-  }
-  
-  .row:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
+
+}
+.p1>h2{
+    color: blue;
+    background-color: aqua;
+    font-style: oblique;
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    top: 50%;
+    left: 60%;
+    font-size: 35px;
     position: absolute;
+    
+
+}
+.p2{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+
+}
+.p2>h2{
+    color: blue;
+    background-color: aqua;
+    font-style: oblique;
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    top: 50%;
+    left: 60%;
+    font-size: 35px;
+    position: absolute;
+    background-size: cover;
+    
+
+}
+
+.p3{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+    background-size: cover;
+
+}
+.p3>h2{
+    color: blue;
+    background-color: aqua;
+    font-style: oblique;
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    top: 50%;
+    left: 60%;
+    font-size: 35px;
+    position: absolute;
+    
+
+}
+.p4{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+    background-size: 200px;
+}
+.p4>h2{
+    color: blue;
+    background-color: aqua;
+    /* font-style: oblique; */
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 200px;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  } */
+    font-size: 35px;
+    position: absolute;
+    
+}

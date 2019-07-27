@@ -13,6 +13,7 @@
     text-align: center;
     text-decoration-style: none;
     margin: 00px;
+    margin-top: 0
 }
 .service{
     background-image: url("../images/services.jpg");
@@ -37,32 +38,7 @@ h2{
     text-align: center;
     font-family: Arial, cursive;
 }
-.row2{
-    margin-top: 20px;
-    display: flex;
-    /* justify-content: space-around; */
-    flex-direction: row;
-    justify-content: space-around;
-
-/* }
-.row1{
-    
-    display: flex;
-    /* justify-content: space-around; */
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.row1 img ,.row2 img{
-    width: 250px;
-    height: 200px;
-    background-color: white;
-    */
-}
-.photo{
-    display: flex;
-    flex-direction: column;
-}
-.contact{
+   .contact{
     background-image: url("../images/c_image.jpg");
     background-repeat: no-repeat;
     text-align: center;
@@ -74,11 +50,18 @@ h2{
     margin-top: 50px;
     
 }
-input{
-    justify-items: space-aroun;
+input[type="text"]::-webkit-input-placeholder {
+    color:white;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color:white;
+}
+textarea.form-control::placeholder {
+    color:white;
 }
 #user,#mail,#info{
     background-color:transparent;
+    color: white;
 }
 .icon{
     margin-top: 30px;
@@ -167,7 +150,7 @@ footer{
     left: 60%;
     font-size: 35px;
     position: absolute;
-    background-size: cover;
+    background-size: 200px;
     
 
 }
@@ -184,7 +167,7 @@ footer{
     color:white;
     transform:translate(-50%,50%);
     bottom: 50%;
-    background-size: cover;
+    
 
 }
 .p3>h2{
@@ -198,9 +181,10 @@ footer{
     margin: 0;
     width: 120px;
     top: 50%;
-    left: 60%;
+    left: 30%;
     font-size: 35px;
     position: absolute;
+    background-size: 200px;
     
 
 }
@@ -233,4 +217,126 @@ footer{
     font-size: 35px;
     position: absolute;
     
+}
+.work1{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+    background-size: 200px;
+}
+.work1>h2{
+
+    color: blue;
+    background-color: aqua;
+    /* font-style: oblique; */
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    position: absolute;
+}
+.work2{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+    background-size: 200px;
+}
+
+.work2>h2{
+
+    color: blue;
+    background-color: aqua;
+    /* font-style: oblique; */
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    position: absolute;
+}
+
+.work3{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+    background-size: 200px;
+}
+.work3>h2{
+
+    color: blue;
+    background-color: aqua;
+    /* font-style: oblique; */
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    position: absolute;
+}
+.work4{
+    top:30%;
+    position: absolute;
+    text-align: center;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    left: 50%;
+    color:white;
+    transform:translate(-50%,50%);
+    bottom: 50%;
+    background-size: 200px;
+}
+.work4>h2{
+
+    color: blue;
+    background-color: aqua;
+    /* font-style: oblique; */
+    text-align: center;
+    font-size: 15px;
+    transform: translate(-50%);
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+    position: absolute;
 }

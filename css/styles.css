@@ -68,12 +68,13 @@ textarea.form-control::placeholder {
     text-align: center;
     flex-direction: row;
 }
+/* 
 .message{
     height: 300px;
-    width: 500px;
+    width: 400px;
     text-align: center;
-    margin-left: 200px;   
-}
+    margin-left: 200px;    
+} */
 #button{
     background-color: aqua;
     background-size: 200px;
@@ -342,7 +343,7 @@ footer{
     position: absolute;
  }
  
-@media screen and (max-width:none){
+@media screen and (max-width:1200px){
     .head{
         height:1050px;
         
@@ -352,7 +353,7 @@ footer{
         margin-right: 30px;
 
     }
-    .contact{
-    width: 1000px;
+    .contactainer{
+    overflow: hidden;
     }
 }

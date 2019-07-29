@@ -91,7 +91,7 @@ footer{
     text-align: center;
 }
 
-.p1{
+/* .p1{
     top:30%;
     position: absolute;
     text-align: center;
@@ -104,7 +104,7 @@ footer{
     transform:translate(-50%,50%);
     bottom: 50%;
 
-}
+} */
 .p1>h2{
     color: blue;
     background-color: aqua;
@@ -340,11 +340,12 @@ footer{
     left: 50%;
     font-size: 35px;
     position: absolute;
-}
-@media screen and (max-width:1000px){
+ }
+ 
+@media screen and (max-width:none){
     .head{
         height:1050px;
-        color: #000;
+        
     }
     #info{
         width:300px;

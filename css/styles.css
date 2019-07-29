@@ -2,7 +2,7 @@
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 190px;
+    padding-top: 90px;
     height: 700px;
     background-size: 100% ;
     color: white;
@@ -69,8 +69,8 @@ textarea.form-control::placeholder {
     flex-direction: row;
 }
 .message{
-    height: 200px;
-    width: 800px;
+    height: 300px;
+    width: 500px;
     text-align: center;
     margin-left: 200px;   
 }
@@ -340,4 +340,18 @@ footer{
     left: 50%;
     font-size: 35px;
     position: absolute;
+}
+@media screen and (max-width:1000px){
+    .head{
+        height:1050px;
+        color: #000;
+    }
+    #info{
+        width:300px;
+        margin-right: 30px;
+
+    }
+    .contact{
+    width: 1000px;
+    }
 }

@@ -343,7 +343,7 @@ footer{
     position: absolute;
  }
  
-@media screen and (max-width:1200px){
+@media screen and (max-width:none){
     .head{
         height:1050px;
         
